@@ -1,4 +1,3 @@
-
 from LY import isLeapYear
 
 def test_leap_year():
@@ -8,4 +7,4 @@ def test_not_leap_year():
     assert isLeapYear(2025) == False
 
 def test_century_leap_year():
-    assert isLeapYear(2000) == True 
+    assert isLeapYear(2000) == True
